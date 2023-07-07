@@ -126,8 +126,12 @@ h2 {
     padding-top: 30px;
 }
 
+/* .project {
+    
+} */
+
 .footer {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1px);
 }
 
@@ -171,7 +175,8 @@ h2 {
     .about {
         padding-top: 100px;
     }
-    .about .about-img{
+
+    .about .about-img {
         width: 0px;
     }
 }
@@ -180,37 +185,75 @@ h2 {
 .turn-on-animation {
     animation: turn-on-animation 1s linear infinite;
 }
+
 @keyframes turn-on-animation {
-    0%{color: #fff;}
-    10%{color: #fff;}
-    20%{color: #fff;}
-    30%{color: #482121;}
-    40%{color: #482121;}
-    50%{color: #fff;}
-    60%{color: #482121;}
-    70%{color: #fff;}
-    100%{color: #fff;}
+    0% {
+        color: #fff;
+    }
+
+    10% {
+        color: #fff;
+    }
+
+    20% {
+        color: #fff;
+    }
+
+    30% {
+        color: #482121;
+    }
+
+    40% {
+        color: #482121;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    60% {
+        color: #482121;
+    }
+
+    70% {
+        color: #fff;
+    }
+
+    100% {
+        color: #fff;
+    }
 }
 
 .floating-effect {
     animation: floating-effect 3s linear infinite;
 }
+
 @keyframes floating-effect {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(10px, -10px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(10px, -10px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
 }
 
 .scroll-down {
     animation: scroll-down 0.9s infinite;
 }
+
 @keyframes scroll-down {
-    from{margin-top: 0; opacity: 1;}
-    to{margin-top: 20px; opacity: 0;}
+    from {
+        margin-top: 0;
+        opacity: 1;
+    }
+
+    to {
+        margin-top: 20px;
+        opacity: 0;
+    }
 }
