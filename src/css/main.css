@@ -79,8 +79,7 @@ h2 {
 }
 
 .about {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 170px;
 }
 
 .about .about-text {
@@ -103,15 +102,12 @@ h2 {
     padding-top: 100px;
 }
 
-.skills .marquee {
-    max-width: 200vh;
-}
-
 .skills .item {
     font-size: 50px;
     padding: 8px;
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
 }
 
 .skills .item:hover {
@@ -172,6 +168,9 @@ h2 {
 }
 
 @media screen and (max-width: 766px) {
+    .about {
+        padding-top: 100px;
+    }
     .about .about-img{
         width: 0px;
     }
