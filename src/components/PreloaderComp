@@ -1,0 +1,20 @@
+import React, { useEffect } from 'react';
+import { preLoaderAnim } from './animation/Preloader';
+
+
+const PreloaderComp = () => {
+    useEffect(() => {
+        preLoaderAnim()
+    },[]);
+    
+    return (
+        <div className='preloader min-vh-100 w-100'>
+            <div className="texts-container">
+                <img src="%PUBLIC_URL%/favicon.ico" alt="" />
+                <h1>Loading wait a moment!!</h1>
+            </div>
+        </div>
+    );
+}
+
+export default PreloaderComp

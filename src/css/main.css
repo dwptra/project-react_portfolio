@@ -1,0 +1,217 @@
+/* Poopins and Space Mono Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Space+Mono:ital@1&display=swap');
+/* Expletus and Ysabeau Font */
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Ysabeau+Infant:ital,wght@0,100;1,700&display=swap');
+
+* {
+    font-family: 'Expletus Sans', cursive;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+p {
+    font-family: 'Space Mono', sans-serif;
+}
+
+h1 {
+    font-family: 'Space Mono', sans-serif;
+}
+
+h2 {
+    position: relative;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.space-mono {
+    font-family: 'Space Mono', sans-serif !important;
+}
+
+.btn-outline-light {
+    border-style: dotted !important;
+    border-radius: 50px !important;
+    /* transition: 0.3s !important; */
+}
+
+.btn-outline-light:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border-style: solid !important;
+    /* border-radius: 0 !important; */
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/hero/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+    display: block;
+}
+
+.hero .hero-button {
+    margin-top: 100px;
+}
+
+.hero .hero-icon {
+    font-size: 40px;
+    font-weight: 1px;
+    display: block;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    backdrop-filter: blur(2px);
+    position: fixed;
+}
+
+.navigation .custom-nav-tog:focus {
+    box-shadow: none;
+}
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.about .about-text {
+    z-index: 1;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.about ul li {
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.skills {
+    padding-top: 100px;
+}
+
+.skills .marquee {
+    max-width: 200vh;
+}
+
+.skills .item {
+    font-size: 50px;
+    padding: 8px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.skills .item:hover {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.skills .progress-bar {
+    height: 10px;
+    background-color: white;
+}
+
+.skills .skill-description,
+.skills .skill-persentase {
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(1px);
+}
+
+.footer p {
+    font-family: 'poppins', sans-serif;
+}
+
+.preloader {
+    background: #000;
+    position: absolute;
+    z-index: 55;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.preloader .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 288px;
+    font-size: 20px;
+    font-weight: 800;
+    overflow: hidden;
+    color: white;
+}
+
+.particles {
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (max-width: 766px) {
+    .about .about-img{
+        width: 0px;
+    }
+}
+
+/* animation */
+.turn-on-animation {
+    animation: turn-on-animation 1s linear infinite;
+}
+@keyframes turn-on-animation {
+    0%{color: #fff;}
+    10%{color: #fff;}
+    20%{color: #fff;}
+    30%{color: #482121;}
+    40%{color: #482121;}
+    50%{color: #fff;}
+    60%{color: #482121;}
+    70%{color: #fff;}
+    100%{color: #fff;}
+}
+
+.floating-effect {
+    animation: floating-effect 3s linear infinite;
+}
+@keyframes floating-effect {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, -10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.scroll-down {
+    animation: scroll-down 0.9s infinite;
+}
+@keyframes scroll-down {
+    from{margin-top: 0; opacity: 1;}
+    to{margin-top: 20px; opacity: 0;}
+}

@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './components/FooterComp';
+import Hero from './components/HeroComp';
+import NavbarComp from './components/NavbarComp';
+import About from './components/AboutComp';
+import Skills from './components/SkillsComp';
+import ParticlesBg from './components/animation/ParticlesBg';
+// import PreloaderComp from './components/PreloaderComp';
+
+import './css/main.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <PreloaderComp/> */}
+      <Hero/>
+
+      {/* content */}
+      <NavbarComp/>
+      <ParticlesBg/>
+      <About/>
+      <Skills/>
+
+      {/* footer */}
+      <Footer/>
+    </>
   );
 }
 
