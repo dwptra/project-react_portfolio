@@ -5,7 +5,7 @@ import Profile from '../assets/profile.jpg';
 
 const About = () => {
     return (
-        <div className='about text-black mb-5' id='about'>
+        <div className='about text-black min-vh-100' id='about'>
             <Container>
                 <Row>
                     <Col lg='4' md='5' xs='1' data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className='d-flex justify-content-end about-img'>

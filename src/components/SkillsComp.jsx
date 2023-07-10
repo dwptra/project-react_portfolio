@@ -17,7 +17,7 @@ const SkillsComp = () => {
                     <FaReact className='item' title='React Js'/>
                     <FaBootstrap className='item' title='Bootstrap'/>
                     <FaGitAlt className='item' title='Git'/>
-                    <FaDatabase className='item' title='Postgresql'/>
+                    <FaDatabase className='item' title='Database'/>
                   </div>
                 </Col>
                 <Col lg='6' md='12' xs='12' data-aos='fade-up' data-aos-duration='500' data-aos-delay='200' className='skill-persentase'>

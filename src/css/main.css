@@ -71,7 +71,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     backdrop-filter: blur(2px);
-    position: fixed;
+    /* position: fixed !important; */
 }
 
 .navigation .custom-nav-tog:focus {
@@ -79,7 +79,8 @@ h2 {
 }
 
 .about {
-    padding-top: 170px;
+    display: flex;
+    align-items: center;
 }
 
 .about .about-text {
@@ -99,7 +100,8 @@ h2 {
 }
 
 .skills {
-    padding-top: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .skills .item {
@@ -126,9 +128,36 @@ h2 {
     padding-top: 30px;
 }
 
-/* .project {
-    
-} */
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.project .card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project .card {
+    max-width: 100%;
+    background-color: rgba(34, 32, 32);
+    backdrop-filter: blur(5px);
+}
+
+.project .card:hover {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.project .card img {
+    max-width: 100%;
+    gap: 20px;
+}
+
+.project .card .card-content {
+    min-height: 40vh;
+    padding: 10px;
+}
 
 .footer {
     background-color: rgba(0, 0, 0, 0.5);
@@ -178,6 +207,9 @@ h2 {
 
     .about .about-img {
         width: 0px;
+    }
+    .skills {
+        padding-top: 100px;
     }
 }
 
