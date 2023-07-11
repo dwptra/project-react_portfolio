@@ -11,7 +11,7 @@ const DataProject = [
   {
     id: 2,
     img: Img1,
-    title: "Gtw Mles",
+    title: "Lorem",
     description:
       "lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet",
     url: "https://dwiputra.netlify.app/",
@@ -20,7 +20,7 @@ const DataProject = [
   {
     id: 3,
     img: Img1,
-    title: "Gtw Mles",
+    title: "Lorem",
     description:
       "lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet",
     url: "https://dwiputra.netlify.app/",
@@ -29,7 +29,7 @@ const DataProject = [
   {
     id: 4,
     img: Img1,
-    title: "Gtw Mles",
+    title: "Lorem",
     description:
       "lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet",
     url: "https://dwiputra.netlify.app/",
@@ -38,7 +38,7 @@ const DataProject = [
   {
     id: 5,
     img: Img1,
-    title: "Gtw Mles",
+    title: "Lorem",
     description:
       "lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet",
     url: "https://dwiputra.netlify.app/",
@@ -47,7 +47,7 @@ const DataProject = [
   {
     id: 6,
     img: Img1,
-    title: "Gtw Mles",
+    title: "Lorem",
     description:
       "lorem ipsum dolor amet lorem ipsum dolor amet lorem ipsum dolor amet",
     url: "https://dwiputra.netlify.app/",

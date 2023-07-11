@@ -35,16 +35,14 @@ h2 {
 }
 
 .btn-outline-light {
-    border-style: dotted !important;
     border-radius: 50px !important;
-    /* transition: 0.3s !important; */
+    transition: 0.3s !important;
 }
 
 .btn-outline-light:hover {
     background-color: transparent !important;
     color: white !important;
-    border-style: solid !important;
-    /* border-radius: 0 !important; */
+    border-radius: 10px !important;
 }
 
 .hero {

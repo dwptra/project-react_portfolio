@@ -19,7 +19,7 @@ const CustomNextArrow = (props) => (
 const ProjectComp = () => {
   const settings = {
     className: "center",
-    dots: true,
+    // dots: true,
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
@@ -32,7 +32,6 @@ const ProjectComp = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          dots: true,
         },
       },
       {
@@ -54,22 +53,41 @@ const ProjectComp = () => {
   };
 
   return (
-    <div className="project min-vh-100" id="project">
+    <div className="project min-vh-100 mt-5" id="project">
       <Container fluid="xl">
-        <h2 className='text-center mb-5' data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">My Projects</h2>
+        <h2
+          className="text-center mb-5"
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="100"
+        >
+          My Projects
+        </h2>
         <Slider {...settings}>
           {DataProject.map((item) => (
-            <div className="card-container my-3" data-aos="fade-up" data-aos-duration="500" key={item.id}>
+            <div
+              className="card-container my-3"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              key={item.id}
+            >
               <div className="card mx-3">
                 <div className="card-top">
                   <img src={item.img} alt={item.title} />
                 </div>
                 <div className="card-content">
-                  <h3 className='px-1'>{item.title}</h3>
-                  <p className='px-1'>{item.description}</p>
+                  <h3 className="px-1">{item.title}</h3>
+                  <p className="px-1">{item.description}</p>
                 </div>
                 <div className="card-footer">
-                  <a className='text-white' target='_blank' rel="noopener noreferrer" href={item.git}>See Project</a>
+                  <a
+                    className="text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={item.git}
+                  >
+                    See Project
+                  </a>
                 </div>
               </div>
             </div>
