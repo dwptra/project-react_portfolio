@@ -71,7 +71,6 @@ h2 {
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     backdrop-filter: blur(2px);
-    /* position: fixed !important; */
 }
 
 .navigation .custom-nav-tog:focus {
@@ -81,6 +80,7 @@ h2 {
 .about {
     display: flex;
     align-items: center;
+    padding-top: 170px;
 }
 
 .about .about-text {
@@ -136,27 +136,52 @@ h2 {
 .project .card-container {
     display: flex;
     justify-content: center;
+    overflow-x: none;
 }
 
-.project .card {
+.project .card-container .card {
     max-width: 100%;
     background-color: rgba(34, 32, 32);
     backdrop-filter: blur(5px);
+    transition: 0.2s;
 }
 
-.project .card:hover {
+.project .card-container .card:hover {
     cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
 
-.project .card img {
+.project .card-container .card img {
     max-width: 100%;
     gap: 20px;
 }
 
-.project .card .card-content {
+.project .card-container .card .card-content {
     min-height: 40vh;
     padding: 10px;
+}
+
+.slick-dots button:before {
+    color:White !important;
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.custom-prev-arrow {
+    margin-right: 67px;
+    z-index: 2;
 }
 
 .footer {
