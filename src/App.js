@@ -6,6 +6,7 @@ import Skills from './components/SkillsComp';
 import ParticlesBg from './components/animation/ParticlesBg';
 import ProjectComp from './components/ProjectComp';
 import CertificateComp from './components/CertificateComp';
+import ContactComp from './components/ContactComp';
 // import PreloaderComp from './components/PreloaderComp';
 
 import './css/main.css'
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <ProjectComp />
       <CertificateComp />
+      <ContactComp />
 
       {/* footer */}
       <Footer />

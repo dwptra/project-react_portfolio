@@ -159,6 +159,11 @@ h2 {
     padding: 10px;
 }
 
+.contact .card {
+    background-color: rgba(32, 32, 32, 0.6);
+    color: white;
+}
+
 .slick-dots button:before {
     color:White !important;
 }
