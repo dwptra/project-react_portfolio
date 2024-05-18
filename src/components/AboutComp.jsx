@@ -81,7 +81,7 @@ const About = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/dwi-putra-47203b261/"
+                  href="https://bit.ly/linkedin-dwiputra"
                   target="_blank"
                   rel="noreferrer"
                 >
