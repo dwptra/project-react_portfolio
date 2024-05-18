@@ -9,6 +9,7 @@ import {
   FaDatabase,
   FaFileExcel,
   FaFileWord,
+  FaVuejs
 } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -56,6 +57,7 @@ const SkillsComp = () => {
               <FaBootstrap className="item" title="Bootstrap" />
               <FaLaravel className="item" title="Laravel & Lumen" />
               <FaReact className="item" title="React Js" />
+              <FaVuejs className="item" title="Vue Js" />
               <FaGitAlt className="item" title="Github & Gitlab" />
               <FaNodeJs className="item" title="Express Js" />
               <FaDatabase className="item" title="MySql & PostgreSQL" />
