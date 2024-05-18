@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaInstagram, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 import Img from "../assets/profile.jpg";
 
@@ -86,11 +86,6 @@ const About = () => {
                   rel="noreferrer"
                 >
                   <FaLinkedin />
-                </a>
-              </li>
-              <li>
-                <a href="/#" target="_blank" rel="noreferrer">
-                  <FaYoutube />
                 </a>
               </li>
             </ul>
