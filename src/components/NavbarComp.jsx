@@ -24,6 +24,9 @@ const NavbarComp = () => {
               <Nav.Link className="space-mono text-white" href="#project">
                 Project
               </Nav.Link>
+              <Nav.Link className="space-mono text-white" href="#certificate">
+                Certificate
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
