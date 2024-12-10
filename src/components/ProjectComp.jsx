@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Container from "react-bootstrap/Container";
 import Perpustakaan from "../assets/project/perpustakaan.png";
+import Paramedic from "../assets/project/paramedic.png";
 import LeadsGeneration from "../assets/project/leadsgeneration.png";
 import BlockManager from "../assets/project/blockmanager.png";
 import SMM from "../assets/project/smm.png";
@@ -67,6 +68,24 @@ const ProjectComp = () => {
           Top Projects
         </h2>
         <Slider {...settings}>
+          <div
+            className="card-container my-3"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div className="card mx-3">
+              <div className="card-top">
+                <img src={Paramedic} alt="Library" />
+              </div>
+              <div className="card-content">
+                <h3 className="px-1">Paramedic</h3>
+                <p className="px-1">
+                  This project is designed to create an integrated hospital application that supports the digital transformation of the hospital system. This application aims to replace the existing manual system with an efficient digital solution, supporting the management of patient data, medical services, administration, and operations in an integrated manner.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div
             className="card-container my-3"
             data-aos="fade-up"

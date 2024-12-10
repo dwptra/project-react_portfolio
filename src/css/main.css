@@ -228,6 +228,14 @@ h2 {
     z-index: -1;
 }
 
+.certificate img {
+    transition: 0.5s;
+}
+
+.certificate img:hover {
+    scale: 1.03;
+}
+
 @media screen and (max-width: 766px) {
     .about {
         padding-top: 100px;

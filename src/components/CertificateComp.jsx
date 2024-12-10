@@ -19,7 +19,7 @@ const CertificateComp = () => {
           Certificates
         </h2>
         <Row
-          className="justify-content-center"
+          className="certificate justify-content-center"
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-delay="100"

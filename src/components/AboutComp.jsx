@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
+import CV from "../assets/cv.pdf";
 import Img from "../assets/profile.jpg";
 
 const About = () => {
@@ -36,29 +37,18 @@ const About = () => {
               </strong>
             </h1>
             <p>
-              As a graduate of Wikrama Bogor Vocational School with a major in
-              Engineering Software (RPL), I have skills in development website
-              with full stack developer. However, my main focus is as a backend
-              developer. I once served as QA manager and full stack developer,
-              as well as leading the current team PKL/Internship at PT Loolin
-              Mandiri Indonesia. During this period, we succeeded in creating a
-              web application that is used online internally by the company. I
-              also have experience as leader and backend developer in the
-              project, namely Information Systems Wikrama Library.
+              I am a graduate of SMK Wikrama Bogor with a focus on Software Development. I have 3 years of experience in the field.
             </p>
             <p>
-              Apart from technical skills, I have communication and skills
-              strong teamwork. My effective leadership has been help the team
-              achieve goals efficiently. I always try to improve my abilities
-              and professionalism through continuous learning.
+              I have mastered various website development tools such as HTML, CSS, JavaScript, PHP, SQL, and NoSQL. I am an individual who is able to work well in a team, professional, able to learn quickly, and always eager to grow. I am committed to continuously improving my skills and giving the best contribution in every project I work on.
             </p>
             <a
-              href="https://drive.google.com/file/d/1VqeB7qfbtxDpC8raarDjPKtv-H0op_H2/view?usp=sharing"
+              href={CV}
               target="_blank"
               rel="noreferrer"
               className="btn btn-outline-light"
             >
-              Download CV
+              View CV
             </a>
             <ul>
               <li>
